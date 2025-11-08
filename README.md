@@ -24,7 +24,7 @@ Click Runtime → Run all (or press Ctrl + F9) to execute every cell.
 
 https://colab.research.google.com/github/<username>/<repo-name>blob/main/[notebook].ipynb
 
-For example: https://colab.research.google.com/github/<username>/<repo-name>blob/main/wine-analysis.ipynb
+For example: https://colab.research.google.com/github/harriethacks/aisecurityhandbook/blob/main/wine-analysis.ipynb
 
 Option 2 — Run locally in Jupyter Lab or VS Code
 
