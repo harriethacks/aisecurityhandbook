@@ -20,9 +20,11 @@ Hit Enter and Colab will open it right away!
 
 Click Runtime → Run all (or press Ctrl + F9) to execute every cell.
 
-💡 You can also create your own Colab link by adding the GitHub path after:
+💡 You can also create your own Colab link by adding the GitHub path like this:
 
-https://colab.research.google.com/github/<username>/<repo-name>/blob/main/<notebook>.ipynb
+https://colab.research.google.com/github/<username>/<repo-name>/blob/main/[notebook].ipynb
+
+For example: https://colab.research.google.com/github/<username>/<repo-name>/blob/main/wine-analysis.ipynb
 
 Option 2 — Run locally in Jupyter Lab or VS Code
 
