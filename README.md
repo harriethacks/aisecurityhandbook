@@ -1,58 +1,74 @@
 👋 Welcome — and thank you for pre-ordering the book!
 
 We’re so excited you’re here! 🎉
-This repository contains the example notebooks (.ipynb files) that accompany the book.
+This repository contains the example code that accompanies the book, provided as:
 
-👉 While we’re still setting up one-click Colab access from the website, you can already download and run the notebooks manually — it only takes a minute.
+📓 Jupyter notebooks (.ipynb) for interactive exploration, and
 
-🚀 How to Run the Notebooks
-Option 1 — Open directly in Google Colab
+🐍 Plain Python scripts (.py) for a simpler, no-notebook setup.
 
-Find the notebook you want to try (it ends in .ipynb).
+Both contain the same core examples — just in different formats.
 
+🚀 How to Run the Examples
+Option 1 — Open notebooks directly in Google Colab (recommended)
+
+If the example ends in .ipynb, you can run it instantly in Colab:
+
+Find the notebook you want to try.
 Copy its GitHub URL.
-
 Go to Google Colab.
+Click File → Open notebook → GitHub, then paste the URL.
+Hit Enter and Colab will open it.
+Click Runtime → Run all (or press Ctrl + F9).
 
-Click File → Open Notebook → GitHub, then paste the URL.
+💡 You can also open notebooks directly using this pattern:
 
-Hit Enter and Colab will open it right away!
+https://colab.research.google.com/github/<username>/<repo-name>/blob/main/[notebook].ipynb
 
-Click Runtime → Run all (or press Ctrl + F9) to execute every cell.
+Example:
+https://colab.research.google.com/github/harriethacks/aisecurityhandbook/blob/main/wine-analysis.ipynb
 
-💡 You can also create your own Colab link by adding the GitHub path like this:
+Option 2 — Run Python scripts (.py) locally or in Colab
 
-https://colab.research.google.com/github/<username>/<repo-name>blob/main/[notebook].ipynb
+Some examples are provided as .py files instead of notebooks.
 
-For example: https://colab.research.google.com/github/harriethacks/aisecurityhandbook/blob/main/wine-analysis.ipynb
+You can:
+Open them in VS Code, or
+Upload them to Colab and run them like a normal Python script, or
+Execute them locally from the command line.
 
-Option 2 — Run locally in Jupyter Lab or VS Code
+To run locally:
+Clone or download this repository.
+Make sure you have Python 3.9+ installed.
+
+In a terminal, run:
+
+pip install -r requirements.txt
+python example_file.py
+
+
+This option is ideal if you prefer scripts over notebooks or want fewer dependencies.
+
+Option 3 — Run notebooks locally (Jupyter Lab or VS Code)
 
 Clone or download this repository.
-
-Make sure you have Python 3.9+ and Jupyter Lab installed.
-
-Open a terminal and run:
-
+Install dependencies:
 pip install -r requirements.txt
 jupyter lab
 
+Open any .ipynb file and start exploring.
 
-Navigate to the notebook file and start exploring.
+💾 Downloading the Files
 
-💾 Download the Notebooks
-
-Until website integration is live, you can download the .ipynb files directly from this repo (top-right Code → Download ZIP or right-click → Save link as… on each file).
+Until website integration is live, you can download everything directly from this repo:
+Code → Download ZIP, or
+Right-click individual files and choose Save link as…
 
 🧠 What’s Coming Soon
 
-🌐 One-click “Open in Colab” buttons from the book’s website
+🌐 One-click “Open in Colab” buttons directly from the book’s website
 
-
-
-Thank you again for supporting the book and being part of this journey into AI security and systems!
-
-
+Thank you again for supporting the book and being part of this journey into AI security and systems 💙
 Happy experimenting! ⚡
 
-— Harriet 
+— Harriet
